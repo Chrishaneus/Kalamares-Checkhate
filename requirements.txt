@@ -1,0 +1,16 @@
+jupyter
+nltk
+pandas
+numpy
+plotly
+matplotlib
+sklearn
+keras
+tensorflow
+seaborn
+wordcloud
+ipynb
+langdetect
+google_trans_new
+googletrans
+stopwordsiso
