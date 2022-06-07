@@ -36,5 +36,13 @@ You may opt to [activate a virtual environment](https://packaging.python.org/gui
 ```cmd
 > jupyter notebook
 ```
+
+(Alternatively, if you are already using Visual Studio Code, you can directly follow Step 2 instead of opening Jupyter Notebook)
+
 2. Go to "models"
-3. Click on your desired model to run: LSTM or NaiveBayes
+3. Open your chosen python notebook:
+    - `explanation.ipynb`: Template (basic) notebook used to explain the implementation of the models (Naive Bayes, LSTM)
+    - `models_raw.ipynb`: Notebook used to implement the models using raw (unmodified/uncorrected) Filipino data
+    - `models_clean.ipynb`: Notebook used to implement the models using clean (modified/corrected) Filipino data
+    - `models_translated.ipynb`: Notebook used to implement the models using clean Google Translated English data
+4. Click `Run All`. (If you are in Visual Studio Code and you initially opted to create a virtual environment, make sure that you have selected the correct kernel before running the model. The `Select Kernel` button is found on the top right of the VSCode window.)
